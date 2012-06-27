@@ -34,9 +34,43 @@ namespace ComplexWpfChatClientExample.ViewModels
 
         public ChatMessage LoginMessage { get; private set; }
 
+        System.Windows.Threading.DispatcherTimer Timer { get; set; }
+
         #endregion // Properties
 
         #region Binding Properties
+
+        private int _timerMessage;
+        /// <summary>
+        /// Odpocet do pingu serveru.
+        /// </summary>
+        public int TimerMessage
+        {
+            get { return _timerMessage; }
+            set
+            {
+                if (_timerMessage != value)
+                    _timerMessage = value;
+                _timerMessage = value;
+                NotifyPropertyChanged(() => TimerMessage);
+            }
+        }
+
+        private string _checkMessage;
+        /// <summary>
+        /// Odezva na server.
+        /// </summary>
+        public string CheckMessage
+        {
+            get { return _checkMessage; }
+            set
+            {
+                if (_checkMessage != value)
+                    _checkMessage = value;
+                _checkMessage = value;
+                NotifyPropertyChanged(() => CheckMessage);
+            }
+        }
 
         private ChatMessage _pingMessage;
         /// <summary>
@@ -63,7 +97,7 @@ namespace ComplexWpfChatClientExample.ViewModels
             get { return _chatClient; }
             set
             {
-                if (_chatClient != value) 
+                if (_chatClient != value)
                     _chatClient = value;
                 NotifyPropertyChanged(() => ChatClient);
                 NotifyPropertyChanged(() => CanRefresh);
@@ -111,6 +145,7 @@ namespace ComplexWpfChatClientExample.ViewModels
             {
                 if (_selectedUser != value) _selectedUser = value;
                 NotifyPropertyChanged(() => SelectedUser);
+                NotifyPropertyChanged(() => CanPing);
             }
         }
 
@@ -174,7 +209,7 @@ namespace ComplexWpfChatClientExample.ViewModels
 
         public bool CanPing
         {
-            get { return ChatClient != null && PingMessage == null; }
+            get { return ChatClient != null && PingMessage == null && SelectedUser != null; }
         }
 
         #endregion // Guard Properties
@@ -271,7 +306,8 @@ namespace ComplexWpfChatClientExample.ViewModels
             catch (Exception ex)
             {
                 Console.Error.WriteLine(ex);
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
+                ChatClient = null;
             }
         }
 
@@ -291,7 +327,8 @@ namespace ComplexWpfChatClientExample.ViewModels
             catch (Exception ex)
             {
                 Console.Error.WriteLine(ex);
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
+                ChatClient = null;
             }
         }
 
@@ -319,7 +356,8 @@ namespace ComplexWpfChatClientExample.ViewModels
                     catch (Exception ex)
                     {
                         Console.Error.WriteLine(ex);
-                        MessageBox.Show(ex.Message);
+                        MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
+                        ChatClient = null;
                     }
                 }
             }
@@ -339,7 +377,8 @@ namespace ComplexWpfChatClientExample.ViewModels
                 catch (Exception ex)
                 {
                     Console.Error.WriteLine(ex);
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    ChatClient = null;
                 }
             }
         }
@@ -367,7 +406,8 @@ namespace ComplexWpfChatClientExample.ViewModels
             catch (Exception ex)
             {
                 Console.Error.WriteLine(ex);
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
+                ChatClient = null;
             }
         }
 
@@ -382,94 +422,112 @@ namespace ComplexWpfChatClientExample.ViewModels
         /// <param name="e"></param>
         protected void OnMessageReceived(object sender, SimpleMessageArgs e)
         {
-            ChatMessage msg = JsonConvert.DeserializeObject<ChatMessage>(e.Message);
-
-            LoggedUser user = null;
-            switch (msg.Type)
+            try
             {
-                case ChatMessageType.LOGIN:
-                    // pripojeni uzivatele
-                    if (msg.ID == LoginMessage.ID)
-                    {
-                        CurrentUser = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
-                        RefreshAction(null);
-                    }
-                    else
-                    {
+                ChatMessage msg = JsonConvert.DeserializeObject<ChatMessage>(e.Message);
+
+                LoggedUser user = null;
+                switch (msg.Type)
+                {
+                    case ChatMessageType.LOGIN:
+                        // pripojeni uzivatele
+                        if (msg.ID == LoginMessage.ID)
+                        {
+                            CurrentUser = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
+                            RefreshAction(null);
+                        }
+                        else
+                        {
+                            user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
+                            App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                                     () =>
+                                         // pridame uzivatele do kolekce
+                            User.Add(user)
+                         ));
+                        }
+                        break;
+                    case ChatMessageType.LOGOUT:
+                        // odhlaseni uzivatele
                         user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
                         App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                                 () =>
-                                     // pridame uzivatele do kolekce
-                     User.Add(user)
-                     ));
-                    }
-                    break;
-                case ChatMessageType.LOGOUT:
-                    // odhlaseni uzivatele
-                    user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
-                    App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                        () =>
-                        // odebereme uzivatele z kolekce
-                        User.Remove(user)
-                    ));
-                    break;
-                case ChatMessageType.ALL_MSG:
-                    // vsechny zpravy
-                    App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                        () =>
-                        // pridame zpravu do kolekce
-                        Message.Add(msg)
-                    ));
-                    break;
-                case ChatMessageType.PRIV_MSG:
-                    // soukrome zpravy
-                    App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                        () =>
-                        // pridame zpravu do kolekce
-                        Message.Add(msg)
-                    ));
-                    break;
-                case ChatMessageType.USERS:
-                    // seznam uzivatelu
-                    User = new ObservableCollection<LoggedUser>(
-                        JsonConvert.DeserializeObject<ICollection<LoggedUser>>(msg.Message)
-                        );
-                    // pridani uzivatele "vsech"
-                    var loggedUser = LoggedUser.Empty;
-                    App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                        () =>
-                        User.Add(loggedUser)
-                    ));
-                    SelectedUser = loggedUser;
-                    break;
-                case ChatMessageType.PING:
-                    // zprava ode mne
-                    if (PingMessage != null && msg.ID == PingMessage.ID)
-                    {
-                        string pingUser = User.FirstOrDefault(u => u.Id == msg.From).DisplayName;
-                        TimeSpan ping = DateTime.Now - msg.TimeStamp;
-                        msg.Message = string.Format("Odezva na uživatele {1}: {0} ms", (int)ping.TotalMilliseconds, pingUser ?? "Server");
-                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                        () =>
-                           // pridame zpravu do kolekce
-                        Message.Add(msg)
+                            () =>
+                                // odebereme uzivatele z kolekce
+                            User.Remove(user)
                         ));
-                        // vynulovani referenci!
-                        PingMessage = null;
-                    }
-                    // zprava od jinych
-                    else
-                    {
-                        // presmerujeme zpet
-                        Guid tmp = msg.From;
-                        msg.From = msg.To;
-                        msg.To = tmp;
-                        // odesleme zpet
-                        ChatClient.SendMessage(JsonConvert.SerializeObject(msg));
-                    }
-                    break;
-                default:
-                    break;
+                        break;
+                    case ChatMessageType.ALL_MSG:
+                        // vsechny zpravy
+                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                            () =>
+                                // pridame zpravu do kolekce
+                            Message.Add(msg)
+                        ));
+                        break;
+                    case ChatMessageType.PRIV_MSG:
+                        // soukrome zpravy
+                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                            () =>
+                                // pridame zpravu do kolekce
+                            Message.Add(msg)
+                        ));
+                        break;
+                    case ChatMessageType.USERS:
+                        // seznam uzivatelu
+                        User = new ObservableCollection<LoggedUser>(
+                            JsonConvert.DeserializeObject<ICollection<LoggedUser>>(msg.Message)
+                            );
+                        // pridani uzivatele "vsech"
+                        var loggedUser = LoggedUser.Empty;
+                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                            () =>
+                            User.Add(loggedUser)
+                        ));
+                        SelectedUser = loggedUser;
+                        break;
+                    case ChatMessageType.PING:
+                        // zprava ode mne
+                        if (PingMessage != null && msg.ID == PingMessage.ID)
+                        {
+                            string pingUser = User.FirstOrDefault(u => u.Id == msg.From).DisplayName;
+                            TimeSpan ping = DateTime.Now - msg.TimeStamp;
+                            // kontrola serveru
+                            if (string.IsNullOrEmpty(pingUser))
+                            {
+                                CheckMessage = string.Format("Odezva na server: {0} ms", (int)ping.TotalMilliseconds);
+                            }
+                            else
+                            {
+                                msg.Message = string.Format("Odezva na uživatele {1}: {0} ms", (int)ping.TotalMilliseconds, pingUser ?? "Server");
+                                App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                                () =>
+                                    // pridame zpravu do kolekce
+                                Message.Add(msg)
+                                ));
+                            }
+
+                            // vynulovani referenci!
+                            PingMessage = null;
+                        }
+                        // zprava od jinych
+                        else
+                        {
+                            // presmerujeme zpet
+                            Guid tmp = msg.From;
+                            msg.From = msg.To;
+                            msg.To = tmp;
+                            // odesleme zpet
+                            ChatClient.SendMessage(JsonConvert.SerializeObject(msg));
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine(ex);
+                MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
+                ChatClient = null;
             }
         }
 
@@ -485,10 +543,37 @@ namespace ComplexWpfChatClientExample.ViewModels
             if (ChatClient == null)
             {
                 ConnectButtonName = "Connect";
+                if (Timer != null) Timer.Stop();
+                Timer = null;
             }
             else
             {
                 ConnectButtonName = "Disconnect";
+                Timer = new DispatcherTimer();
+                Timer.Interval = TimeSpan.FromSeconds(1);
+                Timer.Tick += Timer_Tick;
+                Timer.Start();
+                TimerMessage = 20;
+            }
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            TimerMessage--;
+            if (TimerMessage <= 0)
+            {
+                try
+                {
+                    PingMessage = new ChatMessage(ChatMessageType.PING, null, Guid.Empty);
+                    ChatClient.SendMessage(JsonConvert.SerializeObject(PingMessage));
+                }
+                catch (Exception ex)
+                {
+                    Console.Error.WriteLine(ex);
+                    MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    ChatClient = null;
+                }
+                TimerMessage = 20;
             }
         }
 
