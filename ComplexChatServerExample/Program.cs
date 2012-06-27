@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using Palo.ChatLibrary;
 
 namespace ComplexWpfChatServerExample
@@ -13,6 +14,11 @@ namespace ComplexWpfChatServerExample
     /// </summary>
     public class Program
     {
+        /// <summary>
+        /// Reference na instanci serveru.
+        /// </summary>
+        public static Server Server { get; private set; }
+
         /// <summary>
         /// Hlavni vlakno chat serveru.
         /// </summary>
@@ -47,14 +53,39 @@ namespace ComplexWpfChatServerExample
 
                 Console.WriteLine("Pokus o naslouchani na [{0}:{1}]..", server, port);
                 // odstartovani serveru
-                Server srv = new Server(ip, port);
-                srv.StartListen();
-                Console.WriteLine("Nasloucham..");
+                Thread thread = new Thread(StartServer);
+                string buffer = string.Empty;
+                Server = new Server(ip, port);
+                
+                while (buffer.ToLower() != "close")
+                {
+                    buffer = Console.ReadLine();
+
+                    if (buffer.ToLower() == "help")
+                    {
+                        Help();
+                    }
+                }
+                Server.ChatServer.Close();
+              
             }
             catch (Exception ex)
             {
                 Console.Error.WriteLine(ex);
             }
+        }
+
+        /// <summary>
+        /// V novym vlakne odstartujeme server.
+        /// </summary>
+        public static void StartServer()
+        {
+            Server.StartListen();
+        }
+
+        public static void Help()
+        {
+            Console.WriteLine("Write \"close\" for close server");
         }
     }
 }
