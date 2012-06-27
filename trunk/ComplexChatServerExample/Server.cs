@@ -70,7 +70,7 @@ namespace ComplexWpfChatServerExample
             LoggedUser user = UserList.FirstOrDefault(u => u.Sock == sock);
             if (user != null)
             {
-                ChatMessage msg = new ChatMessage(ChatMessageType.LOGOUT, string.Format("Uzivatel {0} se odhlasil", user.DisplayName), Guid.Empty);
+                ChatMessage msg = new ChatMessage(ChatMessageType.LOGOUT, JsonConvert.SerializeObject(user), Guid.Empty);
                 msg.From = user.Id;
                 string msgStr = JsonConvert.SerializeObject(msg);
                 UserList.Remove(user);
@@ -131,7 +131,7 @@ namespace ComplexWpfChatServerExample
                     UserList.ForEach(u => ChatServer.SendMessage(u.Sock, message));
                     break;
                 case ChatMessageType.LOGOUT:
-                    // pridame uzivatele do kolekce
+                    // odeberemee uzivatele do kolekce
                     var user = UserList.First(u => u.Sock == sock);
                     UserList.Remove(user);
                     msg.Message = JsonConvert.SerializeObject(user);
