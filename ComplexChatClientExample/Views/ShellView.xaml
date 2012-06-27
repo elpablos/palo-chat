@@ -37,7 +37,8 @@
         <!-- zobrazeni zprav -->
         <toolkit:DataGrid ItemsSource="{Binding Message, Mode=OneWay}" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" AutoGenerateColumns="False" Margin="2">
             <toolkit:DataGrid.Columns>
-                <toolkit:DataGridTextColumn Binding="{Binding ID, Mode=OneWay}" Header="ID" Width="0,2*" />
+                <toolkit:DataGridTextColumn Binding="{Binding From, Mode=OneWay}" Header="From" Width="0,1*" />
+                <toolkit:DataGridTextColumn Binding="{Binding To, Mode=OneWay}" Header="To" Width="0,1*" />
                 <toolkit:DataGridTextColumn Binding="{Binding Message, Mode=OneWay}" Header="Message" Width="0,8*" />
             </toolkit:DataGrid.Columns>
         </toolkit:DataGrid>
