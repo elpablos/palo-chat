@@ -56,7 +56,7 @@ namespace ComplexWpfChatServerExample
                 Thread thread = new Thread(StartServer);
                 string buffer = string.Empty;
                 Server = new Server(ip, port);
-                
+
                 while (buffer.ToLower() != "close")
                 {
                     buffer = Console.ReadLine();
@@ -67,7 +67,7 @@ namespace ComplexWpfChatServerExample
                     }
                 }
                 Server.ChatServer.Close();
-              
+
             }
             catch (Exception ex)
             {
@@ -83,6 +83,9 @@ namespace ComplexWpfChatServerExample
             Server.StartListen();
         }
 
+        /// <summary>
+        /// Metoda, ktera zobrazuje napovedu v konzoli.
+        /// </summary>
         public static void Help()
         {
             Console.WriteLine("Write \"close\" for close server");

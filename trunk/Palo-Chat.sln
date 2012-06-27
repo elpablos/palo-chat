@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{8CE2C2D5-A265-4362-9AAD-080BD6C16F35}"
 	ProjectSection(SolutionItems) = preProject
 		Zadani.txt = Zadani.txt
+		dokumentace.docx = dokumentace.docx
 	EndProjectSection
 EndProject
 Global
