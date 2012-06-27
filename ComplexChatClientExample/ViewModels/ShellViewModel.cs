@@ -340,27 +340,36 @@ namespace ComplexWpfChatClientExample.ViewModels
                     else
                     {
                         user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
-                        User.Add(user);
+                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                                 () =>
+                                     // pridame uzivatele do kolekce
+                     User.Add(user)
+                     ));
                     }
                     break;
                 case ChatMessageType.LOGOUT:
                     // odhlaseni uzivatele
                     user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
-                    User.Remove(user);
+                    user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
+                    App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                        () =>
+                        // odebereme uzivatele z kolekce
+                        User.Remove(user)
+                    ));
                     break;
                 case ChatMessageType.ALL_MSG:
                     // vsechny zpravy
                     App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                                    () =>
-                                        // pridame zpravu do kolekce
+                        () =>
+                        // pridame zpravu do kolekce
                         Message.Add(msg)
                     ));
                     break;
                 case ChatMessageType.PRIV_MSG:
                     // soukrome zpravy
                     App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                                    () =>
-                                        // pridame zpravu do kolekce
+                        () =>
+                        // pridame zpravu do kolekce
                         Message.Add(msg)
                     ));
                     break;
@@ -372,8 +381,8 @@ namespace ComplexWpfChatClientExample.ViewModels
                     // pridani uzivatele "vsech"
                     var loggedUser = LoggedUser.Empty;
                     App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                                   () =>
-                    User.Add(loggedUser)
+                        () =>
+                        User.Add(loggedUser)
                     ));
                     SelectedUser = loggedUser;
                     break;
