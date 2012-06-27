@@ -26,7 +26,7 @@ namespace Palo.ChatLibrary.Shared
         /// <summary>
         /// Komu je zprava urcena.
         /// </summary>
-        public Guid To { get; private set; }
+        public Guid To { get; set; }
 
         /// <summary>
         /// Od koho je zprava dorucena.
@@ -37,6 +37,11 @@ namespace Palo.ChatLibrary.Shared
         /// Zprava.
         /// </summary>
         public string Message { get; set; }
+
+        /// <summary>
+        /// Casova znacka odeslani zpravy.
+        /// </summary>
+        public DateTime TimeStamp { get; private set; }
 
         #endregion // Properties
 
@@ -51,13 +56,14 @@ namespace Palo.ChatLibrary.Shared
         /// <param name="from"></param>
         /// <param name="message"></param>
         [JsonConstructor]
-        private ChatMessage(Guid id, ChatMessageType type, Guid to, Guid from, string message)
+        private ChatMessage(Guid id, ChatMessageType type, Guid to, Guid from, string message, DateTime timeStamp)
         {
             ID = id;
             Type = type;
             To = to;
             From = from;
             Message = message;
+            TimeStamp = timeStamp;
         }
 
         /// <summary>
@@ -73,6 +79,7 @@ namespace Palo.ChatLibrary.Shared
             Type = type;
             Message = message;
             To = to;
+            TimeStamp = DateTime.Now;
         }
 
         #endregion // Constructor

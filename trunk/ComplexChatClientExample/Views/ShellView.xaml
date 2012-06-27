@@ -27,6 +27,7 @@
             <Menu.Items>
                 <MenuItem Header="{Binding ConnectButtonName}" Command="{Binding ConnectCommand}" />
                 <MenuItem Header="Refresh" Command="{Binding RefreshCommand}" IsEnabled="{Binding CanRefresh}"/>
+                <MenuItem Header="Ping" Command="{Binding PingCommand}" IsEnabled="{Binding CanPing}"/>
             </Menu.Items>
         </Menu>
         <!-- Nadpis -->
@@ -41,7 +42,18 @@
         <!-- Seznam uzivatelu -->
         <DataGrid ItemsSource="{Binding User}" SelectedItem="{Binding SelectedUser}" Grid.Column="3" Grid.Row="2" AutoGenerateColumns="False" Margin="2">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding DisplayName}" Header="User List" Width="*" />
+                <DataGridTemplateColumn  Header="User List" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Name="DisplayNameBlock" Text="{Binding DisplayName}" />
+                            <DataTemplate.Triggers>
+                                <DataTrigger Binding="{Binding DisplayName}" Value="{x:Null}" >
+                                    <Setter TargetName="DisplayNameBlock" Property="Text" Value="Všichni" />
+                                </DataTrigger>
+                            </DataTemplate.Triggers>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
         <!-- zprava a odesilani -->
