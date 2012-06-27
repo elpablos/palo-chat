@@ -169,7 +169,6 @@ namespace ComplexWpfChatServerExample
                     break;
                 case ChatMessageType.PING:
                     // zkusime ping
-                    Console.WriteLine("Pingujeme..");
                     msg.From = UserList.First(u => u.Sock == sock).Id;
                     // pokud to bylo mireno na server, tak zpravu posleme zpet z casovou znackou
                     if (msg.To == Guid.Empty)
@@ -179,7 +178,6 @@ namespace ComplexWpfChatServerExample
                     }
                     message = JsonConvert.SerializeObject(msg);
                     // odesleme prijemci
-                    Console.WriteLine(message);
                     ChatServer.SendMessage(UserList.First(u => u.Id == msg.To).Sock, message);
                     break;
                 default:
