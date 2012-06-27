@@ -106,11 +106,11 @@ namespace ComplexWpfChatClientExample.ViewModels
             }
         }
 
-        private ObservableCollection<ChatMessage> _message;
+        private ObservableCollection<ChatMessageModel> _message;
         /// <summary>
         /// Kolekce vsech zobrazovanych zprav.
         /// </summary>
-        public ObservableCollection<ChatMessage> Message
+        public ObservableCollection<ChatMessageModel> Message
         {
             get { return _message; }
             set
@@ -281,7 +281,7 @@ namespace ComplexWpfChatClientExample.ViewModels
         /// </summary>
         public ShellViewModel()
         {
-            Message = new ObservableCollection<ChatMessage>();
+            Message = new ObservableCollection<ChatMessageModel>();
             User = new ObservableCollection<LoggedUser>();
             OnChatClientSet();
         }
@@ -457,19 +457,11 @@ namespace ComplexWpfChatClientExample.ViewModels
                         break;
                     case ChatMessageType.ALL_MSG:
                         // vsechny zpravy
-                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                            () =>
-                                // pridame zpravu do kolekce
-                            Message.Add(msg)
-                        ));
+                        InsertMessage(msg);
                         break;
                     case ChatMessageType.PRIV_MSG:
                         // soukrome zpravy
-                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                            () =>
-                                // pridame zpravu do kolekce
-                            Message.Add(msg)
-                        ));
+                        InsertMessage(msg);
                         break;
                     case ChatMessageType.USERS:
                         // seznam uzivatelu
@@ -498,11 +490,7 @@ namespace ComplexWpfChatClientExample.ViewModels
                             else
                             {
                                 msg.Message = string.Format("Odezva na uživatele {1}: {0} ms", (int)ping.TotalMilliseconds, pingUser ?? "Server");
-                                App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
-                                () =>
-                                    // pridame zpravu do kolekce
-                                Message.Add(msg)
-                                ));
+                                InsertMessage(msg);
                             }
 
                             // vynulovani referenci!
@@ -529,6 +517,17 @@ namespace ComplexWpfChatClientExample.ViewModels
                 MessageBox.Show(string.Format("Server is down!\n{0}", ex.Message), "Error message", MessageBoxButton.OK, MessageBoxImage.Error);
                 ChatClient = null;
             }
+        }
+
+        private void InsertMessage(ChatMessage msg)
+        {
+            var from = User.FirstOrDefault(u => u.Id == msg.From).DisplayName ?? "Všichni";
+            var to = User.FirstOrDefault(u => u.Id == msg.To).DisplayName ?? "Všichni";
+            App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                            () =>
+                                // pridame zpravu do kolekce
+                            Message.Add(new ChatMessageModel() { From = from, Message = msg.Message, To = to })
+                        ));
         }
 
         #endregion // Event methods
