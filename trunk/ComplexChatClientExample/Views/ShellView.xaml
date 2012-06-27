@@ -1,0 +1,55 @@
+﻿<Window x:Class="ComplexWpfChatClientExample.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:ComplexWpfChatClientExample.ViewModels"
+        Title="Chat client" Height="600" Width="800"
+         FocusManager.FocusedElement="{Binding ElementName=UserMessage}">
+    <!-- Pripojeni ViewModelu -->
+    <Window.DataContext>
+        <vm:ShellViewModel />
+    </Window.DataContext>
+    <Grid>
+        <!-- definice sloupcu a radku -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="50" />
+            <RowDefinition />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <Menu Grid.ColumnSpan="4">
+            <Menu.Items>
+                <MenuItem Header="{Binding ConnectButtonName}" Command="{Binding ConnectCommand}" />
+                <MenuItem Header="Refresh" Command="{Binding RefreshCommand}" IsEnabled="{Binding CanRefresh}"/>
+            </Menu.Items>
+        </Menu>
+        <!-- Nadpis -->
+        <Label Content="Chat client" FontSize="18" Grid.Row="1" />
+        <!-- zobrazeni zprav -->
+        <DataGrid ItemsSource="{Binding Message}" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" AutoGenerateColumns="False" Margin="2">
+           <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ID}" Header="ID" Width="0,2*" />
+                <DataGridTextColumn Binding="{Binding Message}" Header="Message" Width="0,8*" />
+           </DataGrid.Columns> 
+        </DataGrid>
+        <!-- Seznam uzivatelu -->
+        <DataGrid ItemsSource="{Binding User}" SelectedItem="{Binding SelectedUser}" Grid.Column="3" Grid.Row="2" AutoGenerateColumns="False" Margin="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding DisplayName}" Header="User List" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <!-- zprava a odesilani -->
+        <DockPanel  Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3" LastChildFill="True" Margin="1" >
+            <TextBlock Name="UserName" Text="{Binding Path=CurrentUser.DisplayName}" DockPanel.Dock="Left" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" />
+            <TextBox Name="UserMessage" Text="{Binding UserMessage, UpdateSourceTrigger=PropertyChanged}" Margin="1" />
+        </DockPanel>
+        
+        <Button Content="Odeslat" Command="{Binding SendCommand}" Grid.Column="3" Grid.Row="3" IsEnabled="{Binding CanSend}" IsDefault="True" Margin="2" />
+    </Grid>
+</Window>
