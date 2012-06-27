@@ -38,6 +38,22 @@ namespace ComplexWpfChatClientExample.ViewModels
 
         #region Binding Properties
 
+        private ChatMessage _pingMessage;
+        /// <summary>
+        /// Reference na zpravu pingu.
+        /// </summary>
+        public ChatMessage PingMessage
+        {
+            get { return _pingMessage; }
+            private set
+            {
+                if (_pingMessage != value)
+                    _pingMessage = value;
+                NotifyPropertyChanged(() => PingMessage);
+                NotifyPropertyChanged(() => CanPing);
+            }
+        }
+
         private SimpleChatClient _chatClient;
         /// <summary>
         /// Instance socket klienta.
@@ -47,9 +63,11 @@ namespace ComplexWpfChatClientExample.ViewModels
             get { return _chatClient; }
             set
             {
-                if (_chatClient != value) _chatClient = value;
+                if (_chatClient != value) 
+                    _chatClient = value;
                 NotifyPropertyChanged(() => ChatClient);
                 NotifyPropertyChanged(() => CanRefresh);
+                NotifyPropertyChanged(() => CanPing);
                 OnChatClientSet();
             }
         }
@@ -154,9 +172,28 @@ namespace ComplexWpfChatClientExample.ViewModels
             get { return ChatClient != null && !string.IsNullOrEmpty(UserMessage); }
         }
 
+        public bool CanPing
+        {
+            get { return ChatClient != null && PingMessage == null; }
+        }
+
         #endregion // Guard Properties
 
         #region Commands
+
+        private ICommand _pingCommand;
+        /// <summary>
+        /// Prikaz, ktery vraci akci na kontrolu odezvy.
+        /// </summary>
+        public ICommand PingCommand
+        {
+            get
+            {
+                if (_pingCommand == null)
+                    _pingCommand = new RelayCommand<object>((obj) => PingAction(obj));
+                return _pingCommand;
+            }
+        }
 
         private ICommand _connectCommand;
         /// <summary>
@@ -217,6 +254,26 @@ namespace ComplexWpfChatClientExample.ViewModels
         #endregion // Constructor
 
         #region Action methods
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="obj"></param>
+        public void PingAction(object obj)
+        {
+            try
+            {
+                PingMessage = new ChatMessage(ChatMessageType.PING, UserMessage, SelectedUser.Id);
+                ChatClient.SendMessage(JsonConvert.SerializeObject(PingMessage));
+                // vyprazdneni zasobniku
+                UserMessage = string.Empty;
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine(ex);
+                MessageBox.Show(ex.Message);
+            }
+        }
 
         /// <summary>
         /// Obnoveni seznamu uzivatelu.
@@ -350,7 +407,6 @@ namespace ComplexWpfChatClientExample.ViewModels
                 case ChatMessageType.LOGOUT:
                     // odhlaseni uzivatele
                     user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
-                    user = JsonConvert.DeserializeObject<LoggedUser>(msg.Message);
                     App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
                         () =>
                         // odebereme uzivatele z kolekce
@@ -387,7 +443,30 @@ namespace ComplexWpfChatClientExample.ViewModels
                     SelectedUser = loggedUser;
                     break;
                 case ChatMessageType.PING:
-                    // 
+                    // zprava ode mne
+                    if (PingMessage != null && msg.ID == PingMessage.ID)
+                    {
+                        string pingUser = User.FirstOrDefault(u => u.Id == msg.From).DisplayName;
+                        TimeSpan ping = DateTime.Now - msg.TimeStamp;
+                        msg.Message = string.Format("Odezva na uživatele {1}: {0} ms", (int)ping.TotalMilliseconds, pingUser ?? "Server");
+                        App.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(
+                        () =>
+                           // pridame zpravu do kolekce
+                        Message.Add(msg)
+                        ));
+                        // vynulovani referenci!
+                        PingMessage = null;
+                    }
+                    // zprava od jinych
+                    else
+                    {
+                        // presmerujeme zpet
+                        Guid tmp = msg.From;
+                        msg.From = msg.To;
+                        msg.To = tmp;
+                        // odesleme zpet
+                        ChatClient.SendMessage(JsonConvert.SerializeObject(msg));
+                    }
                     break;
                 default:
                     break;

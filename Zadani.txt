@@ -1,0 +1,7 @@
+Chatovaní systém.
+
+Realizujte programy serveru a klienta pro chatování. 
+Chatovaní server a klient bude podporovat pøihlášení uživatele pod pøezdívkou, komunikaci s ostatními uživateli, 
+pouze s jedním definovaným uživatelem a odhlášení uživatele. 
+
+Protokol bude obsahovat pøíkazy LOGIN, LOGOUT, ALL_MSG, PRIV_MSG, USERS, PING a odpovìdi OK a ERR.

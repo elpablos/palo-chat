@@ -33,7 +33,7 @@ namespace Palo.ChatLibrary.UserManagements
         [JsonIgnore]
         public static LoggedUser Empty 
         {
-            get { return new LoggedUser(Guid.Empty, string.Empty, null); }
+            get { return new LoggedUser(Guid.Empty, null, null); }
         }
 
         /// <summary>
@@ -93,9 +93,17 @@ namespace Palo.ChatLibrary.UserManagements
                 return false;
         }
 
+        /// <summary>
+        /// Prepsany hashCode kvuli porovnani v HashSetu.
+        /// </summary>
+        /// <returns></returns>
         public override int GetHashCode()
         {
-            return Id.GetHashCode() + DisplayName.GetHashCode();
+            int tmp = 0;
+            if (Id != null) tmp += Id.GetHashCode();
+            if (DisplayName != null) tmp += DisplayName.GetHashCode();
+
+            return tmp;
         }
 
         #endregion

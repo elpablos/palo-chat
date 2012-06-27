@@ -12,6 +12,10 @@ using Palo.ChatLibrary.UserManagements;
 
 namespace ComplexWpfChatServerExample
 {
+    /// <summary>
+    /// Trida, ktera je zodpovedna za chovani komplexniho serveru.
+    /// Dle typu zpravy preposila dal, ci vraci spravna data.
+    /// </summary>
     public class Server
     {
         #region Properties
@@ -76,7 +80,6 @@ namespace ComplexWpfChatServerExample
                 UserList.Remove(user);
                 UserList.ForEach(u => ChatServer.SendMessage(u.Sock, msgStr));
             }
-
         }
 
         /// <summary>
@@ -107,15 +110,17 @@ namespace ComplexWpfChatServerExample
             }
             catch (Exception ex)
             {
-                Console.Error.WriteLine(ex.Message);
-                ChatServer.SendMessage(sock, "Unknown format of message");
+                Console.Error.WriteLine(ex);
+                msg = new ChatMessage(ChatMessageType.LOGOUT, "Unknown format of message", Guid.Empty);
+                ChatServer.SendMessage(sock, JsonConvert.SerializeObject(msg));
                 return;
             }
 
             // pokud uzivatel neni prihlasen a zprava neni typu login, tak mu odesleme zpravu a konec
             if (!CheckIsUserLogged(sock) && !(msg.Type == ChatMessageType.LOGIN))
             {
-                ChatServer.SendMessage(sock, "You must login before");
+                msg = new ChatMessage(ChatMessageType.LOGOUT ,"You must login before", Guid.Empty);
+                ChatServer.SendMessage(sock, JsonConvert.SerializeObject(msg));
                 return;
             }
 
@@ -128,6 +133,7 @@ namespace ComplexWpfChatServerExample
                     msg.Message = JsonConvert.SerializeObject(loggedUser);
                     message = JsonConvert.SerializeObject(msg);
                     UserList.Add(loggedUser);
+                    // odesleme zpravu vsem
                     UserList.ForEach(u => ChatServer.SendMessage(u.Sock, message));
                     break;
                 case ChatMessageType.LOGOUT:
@@ -136,30 +142,44 @@ namespace ComplexWpfChatServerExample
                     UserList.Remove(user);
                     msg.Message = JsonConvert.SerializeObject(user);
                     message = JsonConvert.SerializeObject(msg);
+                    // odesleme zpravu vsem
                     UserList.ForEach(u => ChatServer.SendMessage(u.Sock, message));
                     break;
                 case ChatMessageType.ALL_MSG:
                     // preposleme zpravu na vsechny
                     msg.From = UserList.First(u => u.Sock == sock).Id;
                     message = JsonConvert.SerializeObject(msg);
+                    // odesleme zpravu vsem
                     UserList.ForEach(u => ChatServer.SendMessage(u.Sock, message));
                     break;
                 case ChatMessageType.PRIV_MSG:
                     // preposleme zpravu jen na konkretni osobu
                     msg.From = UserList.First(u => u.Sock == sock).Id;
                     message = JsonConvert.SerializeObject(msg);
-                    ChatServer.SendMessage(UserList.First(u => u.Id == msg.To).Sock, message);
+                    // odesleme zpravu prijemci a odesilateli
+                    UserList.Where(u => u.Sock == sock || u.Id == msg.To)
+                        .ForEach(u => ChatServer.SendMessage(u.Sock, message));
                     break;
                 case ChatMessageType.USERS:
                     // posleme seznam uzivatelu
                     msg.Message = JsonConvert.SerializeObject(UserList);
                     message = JsonConvert.SerializeObject(msg);
+                    // odesleme zpravu odesilateli
                     ChatServer.SendMessage(sock, message);
                     break;
                 case ChatMessageType.PING:
                     // zkusime ping
+                    Console.WriteLine("Pingujeme..");
                     msg.From = UserList.First(u => u.Sock == sock).Id;
+                    // pokud to bylo mireno na server, tak zpravu posleme zpet z casovou znackou
+                    if (msg.To == Guid.Empty)
+                    {
+                        msg.To = msg.From;
+                        msg.From = Guid.Empty;
+                    }
                     message = JsonConvert.SerializeObject(msg);
+                    // odesleme prijemci
+                    Console.WriteLine(message);
                     ChatServer.SendMessage(UserList.First(u => u.Id == msg.To).Sock, message);
                     break;
                 default:
