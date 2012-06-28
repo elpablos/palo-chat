@@ -52,20 +52,22 @@ namespace ComplexWpfChatServerExample
                 IPAddress ip = he.AddressList.FirstOrDefault(a => AddressFamily.InterNetwork == a.AddressFamily) ?? he.AddressList[0];
 
                 Console.WriteLine("Pokus o naslouchani na [{0}:{1}]..", server, port);
-                // odstartovani serveru
-                Thread thread = new Thread(StartServer);
-                string buffer = string.Empty;
+
                 Server = new Server(ip, port);
+                Server.StartListen();
 
-                while (buffer.ToLower() != "close")
-                {
-                    buffer = Console.ReadLine();
+                //// odstartovani serveru
+                //Thread thread = new Thread(StartServer);
+                //string buffer = string.Empty;
+                //while (buffer.ToLower() != "close")
+                //{
+                //    buffer = Console.ReadLine();
 
-                    if (buffer.ToLower() == "help")
-                    {
-                        Help();
-                    }
-                }
+                //    if (buffer.ToLower() == "help")
+                //    {
+                //        Help();
+                //    }
+                //}
                 Server.ChatServer.Close();
 
             }
