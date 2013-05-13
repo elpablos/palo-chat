@@ -13,6 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatServerExample", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{8CD6799C-6144-4A7A-8DC8-87BA93A12557}"
 	ProjectSection(SolutionItems) = preProject
+		api_1_0_0.pdf = api_1_0_0.pdf
 		dokumentace.docx = dokumentace.docx
 		Zadani.txt = Zadani.txt
 	EndProjectSection

@@ -1,0 +1,797 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample"><param name="Local" value="namespace_complex_wpf_chat_client_example.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatServerExample"><param name="Local" value="namespace_complex_wpf_chat_server_example.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo"><param name="Local" value="namespace_palo.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Package Functions"><param name="Local" value="namespacemembers.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="namespacemembers.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="namespacemembers_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Enumerations"><param name="Local" value="namespacemembers_enum.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample"><param name="Local" value="namespace_complex_wpf_chat_client_example.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Core"><param name="Local" value="namespace_complex_wpf_chat_client_example_1_1_core.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="BaseViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_base_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OnReconstruct"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_base_view_model.html#a6b9a4db79f255b41fe57f5d35de106a9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Shell"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_base_view_model.html#ae633c3fdb51bf1274113c7a7450bcc94"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangedBase"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NotifyPropertyChanged"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html#a08f8d890ff304d0266be3cfc1a5e5006"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NotifyPropertyChanged< T >"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html#a543cb0491a5b099f7bc93f215461ed8a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChanged"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html#a0386d403742dcf6509ed546d3257261d"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="RelayCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CanExecute"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#a517d280e11b79d87595668486a1b6cc9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Execute"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#a7e426ba912f8d09fdc07a410d54c3117"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RelayCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#ada8d6858732776fe2a969614c6ff2ee2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RelayCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#aea0aaae5f18c059590331648bfe6a253"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CanExecuteChanged"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#a7f25fd73f3b7bc38d49e786e931838fc"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Interfaces"><param name="Local" value="namespace_complex_wpf_chat_client_example_1_1_interfaces.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ILoginView"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Close"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html#a7fc3963668c008fb3261e820d4bd61aa"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShowDialog"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html#a24302c8d96c10613812d66d28aeb9bb8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html#a776ff235159f3ffac9ee9a950d9e55b5"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ILoginViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view_model.html#a6bcd395bb7bd16ecc0dca5f78984aa14"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view_model.html#aa5af16988f5825aae0f3907f34c3b218"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IShellView"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShowLoginWindow"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view.html#aea8cec5df5fd08ce281c81987ba6f1b2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view.html#a2ce40ba4e4cbf8d5f6d6cb31af72d317"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IShellViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view_model.html#ae8d7db59d387fdc58f7c50b8c2ae99bb"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Models"><param name="Local" value="namespace_complex_wpf_chat_client_example_1_1_models.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessageModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="From"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html#a33a88ae293ba0757fc8bbb6d8272ab06"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html#a8fde02d2e61df0c2f9a82f84fb0588c4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="To"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html#a9c59ca57040f349642b93800d2c34364"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NickName"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html#ad0e904c005a0ddfefc0722c54e43f200"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Port"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html#a304733abb8de8c6f99431d9fd7bdddb0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerAddress"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html#ab3ee34a19218bc9d901e23cf0e413c77"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModels"><param name="Local" value="namespace_complex_wpf_chat_client_example_1_1_view_models.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#aae26674e603c987a99274b98bb7f3cca"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CloseAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a9b802845434921690e9286c5004d6665"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a25453622e96b2cbc55272a70b78c428c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CanConnect"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a573d798099ba1f1390cc51889deebce6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CloseCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a2fed045bae2690c999eee40008e31b0b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#ae3daf169ca6f6df835f5351e63f49f24"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a3ffa1f9ce2a04504431b748cbbbc017a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NickName"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#accb2d02a9f19c93e63ff5b8015b0382f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerAddress"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#afec73236856d2230f6d82b3c02c7a99e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerPort"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#aaa0430db51c11d60d8b1abf012ec5ba7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#acdc1a9ea6c01821379b2bc19dddd9029"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a47ea940beaee12db9788d2396a523436"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a25b56a06c4af661fe85ecf2ed49fe941"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OnMessageReceived"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#afe6298feac1609a91cef720eff9339f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PingAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ae02eeae49856a2951fc3d1091ef84959"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RefreshAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a914732a88eb9ba1312ffcfedfd839fc6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SendAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a8e7ddb3192ffd1ce091198363d2c4461"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CanPing"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a563a25136db4e0d33f9d557ba2c8bf50"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CanRefresh"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a223ee1d168cb15a2912887bf6c023feb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CanSend"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a0e5c241d12bea6d62a9d886aea07af6c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatClient"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a4258fcbc64e03dc20091d7063d51e8ea"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a2833c7ea0967af79366dcd2d28d50f18"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectButtonName"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a83e68ce849974563346b7fbf815b550a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a1a6eb338a21e3cd5f7ba53b5ba921755"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CurrentUser"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ab862dc7eed7b3b4c6e02c507fe22bf81"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a30365119d1e1e172719b80845e6b271c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ac5246c0a0910b1f2d7f45636565e716c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PingCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#aaa6a5b287102bbed831645425f0a73a4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PingMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ad67e2bd16d8db11947d419afa7eb5d35"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RefreshCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#afcf4e80ecc34992ef4d44b0175220aa6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SelectedUser"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#aedc15c7b8262e00a21736fb56fccef5f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SendCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a941e2fee540d49eab1cdd003975277d8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Timer"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a714dd1cc5324c5c2bc4285cda50f7763"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TimerMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#af011a552b26ed557470f21bc6e272a23"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="User"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#aca00b45e4aa1e83cef88b681b8821265"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UserMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#afb1bc1bbba31b30d912bf6e8bb259e92"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ab3789400aeace655870d3921c8297eec"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Views"><param name="Local" value="namespace_complex_wpf_chat_client_example_1_1_views.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html#aa291323c63ece7a5c483835f1a20dcca"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html#ace9a062fe320b1480c25fc053a80cc0d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html#aa623af9c259567e35ba75e856312cac6"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html#a70e43afd5cab27d523d44e6ca081d9c7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ShowLoginWindow"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html#a143a914444995ca23d6708b9b7237d11"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html#a81d0852e37bc5dc4f58e36351a2949e1"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="App"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_app.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnStartup"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_app.html#a0cafa34357a7f72d7aae5391afa46872"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatServerExample"><param name="Local" value="namespace_complex_wpf_chat_server_example.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Program"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Help"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#a79ea30aabfc3f6e2aa83f8fbe8bb58cb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Main"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#a3c9c2c8aac3a0c8e374d0e2eebc92376"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="StartServer"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#a1aa6119edcf0321051d2e5f32207c41d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Server"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#abad218f84e26dbccf0dde1828c898ced"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Server"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Server"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a5211fc0d07da67fb2e8895ad7cb0c06c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatServer_MessageReceived"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a7715274f9b39c81133f8361270d6516a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatServer_ReadingInterrupted"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a265ff5bbb043adb392b87dc10cfb8744"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="StartListen"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#ae933d8f0f8d9126396b35f847271c2da"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatServer"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#af5b68dbdb814196e3efbedacd4622e0f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UserList"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a795a9a82ec87e841a7c525cb1fd0a4ca"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo"><param name="Local" value="namespace_palo.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatLibrary"><param name="Local" value="namespace_palo_1_1_chat_library.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Arguments"><param name="Local" value="namespace_palo_1_1_chat_library_1_1_arguments.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleMessageArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_simple_message_args.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleMessageArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_simple_message_args.html#a9921b831ec1ac964d99f918eceea1483"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_simple_message_args.html#a7504f3883e855b34b59dceef86a35b1b"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_args.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_args.html#a815f020cacd6c8f006e3045f336e145b"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Socket"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_args.html#a81447f841a1ac0e142b43a859cae9941"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketExceptionArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_exception_args.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketExceptionArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_exception_args.html#a782a29d584da53c310b09b7b78c472b3"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Exception"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_exception_args.html#a35a560ddcbf6a18f243c4d451cf3cc47"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Converters"><param name="Local" value="namespace_palo_1_1_chat_library_1_1_converters.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ByteToStringConverter"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html#a9d725dd5b0d578cc6f7c74e501ed3b22"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html#a6395d9ef5c70fd74c4625a7d25082664"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ConvertBack"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html#a7bbdce476282d13a9f18f3cf2d107a5c"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="IByteToStringConverter"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html#a5d17859431c42a0cb150b452b5b5cb11"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html#ade898b65761065d31c90476dc35dedbd"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ConvertBack"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html#aec96c3607a5e73076160f738ac0e52ac"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoop"><param name="Local" value="namespace_palo_1_1_chat_library_1_1_reading_loop.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="IReadingLoop"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Closing"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#aab70600f30681e18114f84f7cf1e3649"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Start"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a3813d25456734764536d4626e83df158"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Socket"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a74dc78e99ed050fa16dcafccd58368b5"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="MessageReceived"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a59f597bb83a731f9145ae06d1a21e62d"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingInterrupted"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a434a5559a2b0f3f27635ca105433342c"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="IReadingLoopCreator"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop_creator.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FactoryMethod"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop_creator.html#a6284481d2e68efa412143cf122041537"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopCreator"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_creator.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FactoryMethod"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_creator.html#a28cdc98a27585eddf7be34bf33445f1d"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a32df85120bdb8d94e95cfc536aab2aa7"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a1fe48acc0157db0cfa3c6d3eae6adee0"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CleanUp"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a6d2938260d8e1b925667e90c133b9d6a"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Closing"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a80588924cdce076b41cafae2c83cfe7c"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Start"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#aa2a6808cead51d60bfc53fe5fc196b5d"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="StartReading"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a336583e07213bad54e894b8c3c7329e6"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="_closing"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a59ed0a0915eaf370a67bc01fb0c03253"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="_readThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#ad78c02adf8f5f60cad6b945f5a8cf8fb"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="MAX_BUFFER_LENGTH"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#af432ee488ac167eef7efff1f2dd1afe7"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Socket"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a7c3da3330a5707b0c7592bb0766c4b27"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="MessageReceived"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a77d44c900e7ec1259faf2aeb6e6d9ce9"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingInterrupted"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#af710cce5870d015f5c4f7866ca784ed9"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Shared"><param name="Local" value="namespace_palo_1_1_chat_library_1_1_shared.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a1a931a9275735b4712ecb949659ab454"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="From"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#ad2c84b90b64b2c00abb477f5f19cc65d"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ID"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#acdf04f9fc99e3f9fafe9035313a70dce"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a97a20b103172fd7f80b6593480bdfd40"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="TimeStamp"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#add378349aee11b2a6435d85360cb14c0"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="To"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a9bad7eaa76b599a706610f9829806934"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Type"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a74c8a20d0ed8e2365e800e34a42c6237"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UserManagements"><param name="Local" value="namespace_palo_1_1_chat_library_1_1_user_managements.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LoggedUser"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="LoggedUser"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a5bfdb41fd0205c45844d3dba139f2bbb"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Equals"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#ac5383a554f1960ff94f08a9b2bf15db6"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="GetHashCode"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a76d5093d86c244a609e803805dd1e127"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="DisplayName"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#ace5d16199aab98c24fb6fa8844779ce2"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Empty"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a985bc029b45a64baf5837a05c1142557"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Id"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#acf14106f9201a83b424a72a6d3f69354"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="IsEmpty"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a4446ff1410085bc4e0c559258a26db21"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Sock"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a85c3592479dcb4177ec3aeca0383eeaa"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a50a87d19514d2d6bad3e47291405e215"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a897bbf61cd160756e5b57e700e1319c9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a4cb78b4d7ac7671aa76799f4bce05810"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Close"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a22a0960ba37a3fdaec5b1efe23c99d67"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OnMessageReceived"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#aef5436728214d852e33701f35ce2c3e8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OnReadingInterrupted"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ac2240de681250fcf057e9082ca4d06df"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Send"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ad10ceef5e6626fb83c2b0d95da5961a4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="StartReadingOnBackground"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a207f9766f1f997d91cc15bd7650cd1be"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="_closing"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a97afbba644d8da80a6b7c0bd6f6a731c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="_readingLoop"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a00f3d1f653362c3c7077366eacd93e70"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MAX_BUFFER_LENGTH"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#aa746c74b3506e005af28225af82d65d3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Converter"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ad0f7812b06293ae018f6e659e36f3920"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Ip"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a2b9dc63fe8d96bf0977cd3d189c93f6c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Port"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a7962aad19a0fb6c0c6fc254b0bef5d22"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopCreator"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ac73a9d1ca055c2eaf35134c70e4892c1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MessageReceived"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a5f774513bfe84321cd6a6565fbe229fb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingInterrupted"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a57c3180e5e3b90f77ce3839255ef0365"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#aad50a0cc9d2a00cc9911c08f732f49eb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a6f203bf070891227a303c391d0474cc7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a37db31804300ea0c93565e7fcd985e1f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Connect"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a2cae2d022611bf7f519c58116d1aa16d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OnServerSocketConnected"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a00ec6c8d71157cf14fe12f1a857e9b6e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SendMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a2bdc1a6c34ccc6f4f45d8d07d32ea3c5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="_client"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a22f8dd18703ddfa3578b00de583c54d2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerSocketConnected"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a9c925ccbd7ca5ba601c6e5e790349779"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#ac80caaf2e276ffabdf4e70f8011e38a6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a0522541c080d673db1e459c46a889a52"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#adb64784c68aee06898ba56be39066e42"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OnSocketAccepted"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a78ae0fa7756ab31733a78ae44bc2d0f8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SendMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#ab89591406c2381cddf621a1dc3051e27"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="StartListen"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a4e72a70b8258806a14966800a12d8b66"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="_serverListener"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a22fd17fcd40116e03168be2c563d36c6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketAccepted"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a2529cdaf60fe75679982f4c6f9df15e7"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.App"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_app.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.Shared.ChatMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.Converters.IByteToStringConverter"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.Converters.ByteToStringConverter"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Interfaces.ILoginView"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Views.LoginView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Interfaces.ILoginViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.ViewModels.LoginViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.ReadingLoop.IReadingLoop"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.ReadingLoop.ReadingLoopThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.ReadingLoop.IReadingLoopCreator"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop_creator.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.ReadingLoop.ReadingLoopCreator"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_creator.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Interfaces.IShellView"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Views.ShellView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Interfaces.IShellViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.ViewModels.ShellViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.UserManagements.LoggedUser"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Models.LoginModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatServerExample.Program"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Core.PropertyChangedBase"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Core.BaseViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_base_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.ViewModels.LoginViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.ViewModels.ShellViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Models.ChatMessageModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatClientExample.Core.RelayCommand< T >"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexWpfChatServerExample.Server"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.Arguments.SimpleMessageArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_simple_message_args.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.Arguments.SocketArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_args.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Palo.ChatLibrary.Arguments.SocketExceptionArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_exception_args.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="functions_prop.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Events"><param name="Local" value="functions_evnt.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="API"><param name="Local" value="dir_19ea4dbfe8f0e4681f60b9b97f7b5d11.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_72c031272133aec1d916095cf903ecf1.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatLibrary"><param name="Local" value="dir_62ce2d94f7323cc6a6db466d8a05d64e.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Arguments"><param name="Local" value="dir_3a0a4643e8b3f78c4b02217193819ede.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleMessageArgs.cs"><param name="Local" value="_simple_message_args_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleMessageArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_simple_message_args.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleMessageArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_simple_message_args.html#a9921b831ec1ac964d99f918eceea1483"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_simple_message_args.html#a7504f3883e855b34b59dceef86a35b1b"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleMessageHander"><param name="Local" value="_simple_message_args_8cs.html#a9fee9d042b1e37916e42f301a10cafda"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketArgs.cs"><param name="Local" value="_socket_args_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_args.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_args.html#a815f020cacd6c8f006e3045f336e145b"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Socket"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_args.html#a81447f841a1ac0e142b43a859cae9941"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketHandler"><param name="Local" value="_socket_args_8cs.html#ae3a5145a88836adea5f64e1443ef91eb"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketExceptionArgs.cs"><param name="Local" value="_socket_exception_args_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketExceptionArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_exception_args.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketExceptionArgs"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_exception_args.html#a782a29d584da53c310b09b7b78c472b3"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Exception"><param name="Local" value="class_palo_1_1_chat_library_1_1_arguments_1_1_socket_exception_args.html#a35a560ddcbf6a18f243c4d451cf3cc47"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketExceptionHandler"><param name="Local" value="_socket_exception_args_8cs.html#a12d56e1885eea92b276a2122020f3c4f"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Converters"><param name="Local" value="dir_e4877a26774647a6cfc8f768f9129664.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ByteToStringConverter.cs"><param name="Local" value="_byte_to_string_converter_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ByteToStringConverter"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html#a9d725dd5b0d578cc6f7c74e501ed3b22"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html#a6395d9ef5c70fd74c4625a7d25082664"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ConvertBack"><param name="Local" value="class_palo_1_1_chat_library_1_1_converters_1_1_byte_to_string_converter.html#a7bbdce476282d13a9f18f3cf2d107a5c"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="IByteToStringConverter.cs"><param name="Local" value="_i_byte_to_string_converter_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="IByteToStringConverter"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html#a5d17859431c42a0cb150b452b5b5cb11"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Convert"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html#ade898b65761065d31c90476dc35dedbd"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ConvertBack"><param name="Local" value="interface_palo_1_1_chat_library_1_1_converters_1_1_i_byte_to_string_converter.html#aec96c3607a5e73076160f738ac0e52ac"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Messages"><param name="Local" value="dir_3721051e2e54f2d295325a2b24716c3a.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessage.cs"><param name="Local" value="_chat_message_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a1a931a9275735b4712ecb949659ab454"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="From"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#ad2c84b90b64b2c00abb477f5f19cc65d"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ID"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#acdf04f9fc99e3f9fafe9035313a70dce"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a97a20b103172fd7f80b6593480bdfd40"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="TimeStamp"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#add378349aee11b2a6435d85360cb14c0"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="To"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a9bad7eaa76b599a706610f9829806934"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Type"><param name="Local" value="class_palo_1_1_chat_library_1_1_shared_1_1_chat_message.html#a74c8a20d0ed8e2365e800e34a42c6237"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessageEnums.cs"><param name="Local" value="_chat_message_enums_8cs.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessageResponse"><param name="Local" value="_chat_message_enums_8cs.html#a6222a6866e5a5587221b11aef043dc5f"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="OK"><param name="Local" value="_chat_message_enums_8cs.html#a6222a6866e5a5587221b11aef043dc5f"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ERR"><param name="Local" value="_chat_message_enums_8cs.html#a6222a6866e5a5587221b11aef043dc5f"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessageType"><param name="Local" value="_chat_message_enums_8cs.html#ade25b925bf6972fe9b1e7b61e82dc17b"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="LOGIN"><param name="Local" value="_chat_message_enums_8cs.html#ade25b925bf6972fe9b1e7b61e82dc17b"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="LOGOUT"><param name="Local" value="_chat_message_enums_8cs.html#ade25b925bf6972fe9b1e7b61e82dc17b"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ALL_MSG"><param name="Local" value="_chat_message_enums_8cs.html#ade25b925bf6972fe9b1e7b61e82dc17b"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="PRIV_MSG"><param name="Local" value="_chat_message_enums_8cs.html#ade25b925bf6972fe9b1e7b61e82dc17b"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="USERS"><param name="Local" value="_chat_message_enums_8cs.html#ade25b925bf6972fe9b1e7b61e82dc17b"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="PING"><param name="Local" value="_chat_message_enums_8cs.html#ade25b925bf6972fe9b1e7b61e82dc17b"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoop"><param name="Local" value="dir_f7437b78227b1a6f710b9c9d1cd51519.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="IReadingLoop.cs"><param name="Local" value="_i_reading_loop_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="IReadingLoop"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Closing"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#aab70600f30681e18114f84f7cf1e3649"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Start"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a3813d25456734764536d4626e83df158"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Socket"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a74dc78e99ed050fa16dcafccd58368b5"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="MessageReceived"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a59f597bb83a731f9145ae06d1a21e62d"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingInterrupted"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop.html#a434a5559a2b0f3f27635ca105433342c"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="IReadingLoopCreator.cs"><param name="Local" value="_i_reading_loop_creator_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="IReadingLoopCreator"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop_creator.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="FactoryMethod"><param name="Local" value="interface_palo_1_1_chat_library_1_1_reading_loop_1_1_i_reading_loop_creator.html#a6284481d2e68efa412143cf122041537"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopCreator.cs"><param name="Local" value="_reading_loop_creator_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopCreator"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_creator.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="FactoryMethod"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_creator.html#a28cdc98a27585eddf7be34bf33445f1d"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopThread.cs"><param name="Local" value="_reading_loop_thread_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a32df85120bdb8d94e95cfc536aab2aa7"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a1fe48acc0157db0cfa3c6d3eae6adee0"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CleanUp"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a6d2938260d8e1b925667e90c133b9d6a"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Closing"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a80588924cdce076b41cafae2c83cfe7c"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Start"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#aa2a6808cead51d60bfc53fe5fc196b5d"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="StartReading"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a336583e07213bad54e894b8c3c7329e6"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="_closing"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a59ed0a0915eaf370a67bc01fb0c03253"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="_readThread"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#ad78c02adf8f5f60cad6b945f5a8cf8fb"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="MAX_BUFFER_LENGTH"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#af432ee488ac167eef7efff1f2dd1afe7"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Socket"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a7c3da3330a5707b0c7592bb0766c4b27"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="MessageReceived"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#a77d44c900e7ec1259faf2aeb6e6d9ce9"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingInterrupted"><param name="Local" value="class_palo_1_1_chat_library_1_1_reading_loop_1_1_reading_loop_thread.html#af710cce5870d015f5c4f7866ca784ed9"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UserManagements"><param name="Local" value="dir_8d5f0cfe7e2260c6fea68df5020e0081.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="LoggedUser.cs"><param name="Local" value="_logged_user_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="LoggedUser"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="LoggedUser"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a5bfdb41fd0205c45844d3dba139f2bbb"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Equals"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#ac5383a554f1960ff94f08a9b2bf15db6"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="GetHashCode"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a76d5093d86c244a609e803805dd1e127"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="DisplayName"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#ace5d16199aab98c24fb6fa8844779ce2"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Empty"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a985bc029b45a64baf5837a05c1142557"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Id"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#acf14106f9201a83b424a72a6d3f69354"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="IsEmpty"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a4446ff1410085bc4e0c559258a26db21"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Sock"><param name="Local" value="class_palo_1_1_chat_library_1_1_user_managements_1_1_logged_user.html#a85c3592479dcb4177ec3aeca0383eeaa"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket.cs"><param name="Local" value="_chat_socket_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a50a87d19514d2d6bad3e47291405e215"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a897bbf61cd160756e5b57e700e1319c9"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatSocket"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a4cb78b4d7ac7671aa76799f4bce05810"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Close"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a22a0960ba37a3fdaec5b1efe23c99d67"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="OnMessageReceived"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#aef5436728214d852e33701f35ce2c3e8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="OnReadingInterrupted"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ac2240de681250fcf057e9082ca4d06df"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Send"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ad10ceef5e6626fb83c2b0d95da5961a4"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="StartReadingOnBackground"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a207f9766f1f997d91cc15bd7650cd1be"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="_closing"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a97afbba644d8da80a6b7c0bd6f6a731c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="_readingLoop"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a00f3d1f653362c3c7077366eacd93e70"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="MAX_BUFFER_LENGTH"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#aa746c74b3506e005af28225af82d65d3"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Converter"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ad0f7812b06293ae018f6e659e36f3920"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Ip"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a2b9dc63fe8d96bf0977cd3d189c93f6c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Port"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a7962aad19a0fb6c0c6fc254b0bef5d22"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingLoopCreator"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#ac73a9d1ca055c2eaf35134c70e4892c1"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="MessageReceived"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a5f774513bfe84321cd6a6565fbe229fb"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ReadingInterrupted"><param name="Local" value="class_palo_1_1_chat_library_1_1_chat_socket.html#a57c3180e5e3b90f77ce3839255ef0365"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient.cs"><param name="Local" value="_simple_chat_client_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#aad50a0cc9d2a00cc9911c08f732f49eb"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a6f203bf070891227a303c391d0474cc7"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatClient"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a37db31804300ea0c93565e7fcd985e1f"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Connect"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a2cae2d022611bf7f519c58116d1aa16d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="OnServerSocketConnected"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a00ec6c8d71157cf14fe12f1a857e9b6e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SendMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a2bdc1a6c34ccc6f4f45d8d07d32ea3c5"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="_client"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a22f8dd18703ddfa3578b00de583c54d2"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerSocketConnected"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_client.html#a9c925ccbd7ca5ba601c6e5e790349779"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer.cs"><param name="Local" value="_simple_chat_server_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#ac80caaf2e276ffabdf4e70f8011e38a6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a0522541c080d673db1e459c46a889a52"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SimpleChatServer"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#adb64784c68aee06898ba56be39066e42"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="OnSocketAccepted"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a78ae0fa7756ab31733a78ae44bc2d0f8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SendMessage"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#ab89591406c2381cddf621a1dc3051e27"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="StartListen"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a4e72a70b8258806a14966800a12d8b66"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="_serverListener"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a22fd17fcd40116e03168be2c563d36c6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="SocketAccepted"><param name="Local" value="class_palo_1_1_chat_library_1_1_simple_chat_server.html#a2529cdaf60fe75679982f4c6f9df15e7"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexChatClientExample"><param name="Local" value="dir_0344f37a100665092afbf8146596d895.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Core"><param name="Local" value="dir_f327c47359f789ac618c7c96774b8402.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="AppSettingsReader.cs"><param name="Local" value="_complex_chat_client_example_2_core_2_app_settings_reader_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="BaseViewModel.cs"><param name="Local" value="_base_view_model_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="BaseViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_base_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="OnReconstruct"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_base_view_model.html#a6b9a4db79f255b41fe57f5d35de106a9"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Shell"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_base_view_model.html#ae633c3fdb51bf1274113c7a7450bcc94"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ExtensionMethods.cs"><param name="Local" value="_extension_methods_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangedBase.cs"><param name="Local" value="_property_changed_base_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChangedBase"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="NotifyPropertyChanged"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html#a08f8d890ff304d0266be3cfc1a5e5006"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="NotifyPropertyChanged< T >"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html#a543cb0491a5b099f7bc93f215461ed8a"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="PropertyChanged"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_property_changed_base.html#a0386d403742dcf6509ed546d3257261d"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="RelayCommand.cs"><param name="Local" value="_relay_command_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="RelayCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CanExecute"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#a517d280e11b79d87595668486a1b6cc9"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Execute"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#a7e426ba912f8d09fdc07a410d54c3117"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="RelayCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#ada8d6858732776fe2a969614c6ff2ee2"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="RelayCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#aea0aaae5f18c059590331648bfe6a253"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CanExecuteChanged"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_core_1_1_relay_command-g.html#a7f25fd73f3b7bc38d49e786e931838fc"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Interfaces"><param name="Local" value="dir_e584d592a12cf41e0692ed2fd9dc9e4a.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ILoginView.cs"><param name="Local" value="_i_login_view_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ILoginView"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Close"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html#a7fc3963668c008fb3261e820d4bd61aa"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShowDialog"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html#a24302c8d96c10613812d66d28aeb9bb8"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view.html#a776ff235159f3ffac9ee9a950d9e55b5"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ILoginViewModel.cs"><param name="Local" value="_i_login_view_model_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ILoginViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view_model.html#a6bcd395bb7bd16ecc0dca5f78984aa14"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_login_view_model.html#aa5af16988f5825aae0f3907f34c3b218"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="IShellView.cs"><param name="Local" value="_i_shell_view_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="IShellView"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShowLoginWindow"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view.html#aea8cec5df5fd08ce281c81987ba6f1b2"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view.html#a2ce40ba4e4cbf8d5f6d6cb31af72d317"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="IShellViewModel.cs"><param name="Local" value="_i_shell_view_model_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="IShellViewModel"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="interface_complex_wpf_chat_client_example_1_1_interfaces_1_1_i_shell_view_model.html#ae8d7db59d387fdc58f7c50b8c2ae99bb"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Models"><param name="Local" value="dir_fbc61d288819d7c18e56fb67995f3929.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessageModel.cs"><param name="Local" value="_chat_message_model_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatMessageModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="From"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html#a33a88ae293ba0757fc8bbb6d8272ab06"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html#a8fde02d2e61df0c2f9a82f84fb0588c4"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="To"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_chat_message_model.html#a9c59ca57040f349642b93800d2c34364"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginModel.cs"><param name="Local" value="_login_model_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="NickName"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html#ad0e904c005a0ddfefc0722c54e43f200"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Port"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html#a304733abb8de8c6f99431d9fd7bdddb0"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerAddress"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_models_1_1_login_model.html#ab3ee34a19218bc9d901e23cf0e413c77"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModels"><param name="Local" value="dir_4591bf721bf11d7617ca49399c7d31c5.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginViewModel.cs"><param name="Local" value="_login_view_model_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#aae26674e603c987a99274b98bb7f3cca"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CloseAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a9b802845434921690e9286c5004d6665"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a25453622e96b2cbc55272a70b78c428c"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CanConnect"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a573d798099ba1f1390cc51889deebce6"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CloseCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a2fed045bae2690c999eee40008e31b0b"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#ae3daf169ca6f6df835f5351e63f49f24"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#a3ffa1f9ce2a04504431b748cbbbc017a"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="NickName"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#accb2d02a9f19c93e63ff5b8015b0382f"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerAddress"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#afec73236856d2230f6d82b3c02c7a99e"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ServerPort"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#aaa0430db51c11d60d8b1abf012ec5ba7"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_login_view_model.html#acdc1a9ea6c01821379b2bc19dddd9029"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellViewModel.cs"><param name="Local" value="_shell_view_model_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a47ea940beaee12db9788d2396a523436"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a25b56a06c4af661fe85ecf2ed49fe941"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="OnMessageReceived"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#afe6298feac1609a91cef720eff9339f6"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="PingAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ae02eeae49856a2951fc3d1091ef84959"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="RefreshAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a914732a88eb9ba1312ffcfedfd839fc6"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SendAction"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a8e7ddb3192ffd1ce091198363d2c4461"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CanPing"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a563a25136db4e0d33f9d557ba2c8bf50"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CanRefresh"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a223ee1d168cb15a2912887bf6c023feb"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CanSend"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a0e5c241d12bea6d62a9d886aea07af6c"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatClient"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a4258fcbc64e03dc20091d7063d51e8ea"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CheckMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a2833c7ea0967af79366dcd2d28d50f18"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectButtonName"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a83e68ce849974563346b7fbf815b550a"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ConnectCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a1a6eb338a21e3cd5f7ba53b5ba921755"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="CurrentUser"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ab862dc7eed7b3b4c6e02c507fe22bf81"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a30365119d1e1e172719b80845e6b271c"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Message"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ac5246c0a0910b1f2d7f45636565e716c"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="PingCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#aaa6a5b287102bbed831645425f0a73a4"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="PingMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ad67e2bd16d8db11947d419afa7eb5d35"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="RefreshCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#afcf4e80ecc34992ef4d44b0175220aa6"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SelectedUser"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#aedc15c7b8262e00a21736fb56fccef5f"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SendCommand"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a941e2fee540d49eab1cdd003975277d8"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Timer"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#a714dd1cc5324c5c2bc4285cda50f7763"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="TimerMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#af011a552b26ed557470f21bc6e272a23"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="User"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#aca00b45e4aa1e83cef88b681b8821265"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="UserMessage"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#afb1bc1bbba31b30d912bf6e8bb259e92"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="View"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_view_models_1_1_shell_view_model.html#ab3789400aeace655870d3921c8297eec"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Views"><param name="Local" value="dir_5a6eb322bc6ca396354e214d1dc8de1a.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginView.xaml.cs"><param name="Local" value="_login_view_8xaml_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="LoginView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html#aa291323c63ece7a5c483835f1a20dcca"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Model"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html#ace9a062fe320b1480c25fc053a80cc0d"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_login_view.html#aa623af9c259567e35ba75e856312cac6"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellView.xaml.cs"><param name="Local" value="_shell_view_8xaml_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShellView"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html#a70e43afd5cab27d523d44e6ca081d9c7"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ShowLoginWindow"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html#a143a914444995ca23d6708b9b7237d11"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewModel"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_views_1_1_shell_view.html#a81d0852e37bc5dc4f58e36351a2949e1"><param name="ImageNumber" value="11"></OBJECT>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="App.xaml.cs"><param name="Local" value="_app_8xaml_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="App"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_app.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="OnStartup"><param name="Local" value="class_complex_wpf_chat_client_example_1_1_app.html#a0cafa34357a7f72d7aae5391afa46872"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ComplexChatServerExample"><param name="Local" value="dir_1f24933001ef476abb6858705773a6b6.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AppSettingsReader.cs"><param name="Local" value="_complex_chat_server_example_2_app_settings_reader_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="EnumerableExtension.cs"><param name="Local" value="_enumerable_extension_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Program.cs"><param name="Local" value="_program_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Program"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Help"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#a79ea30aabfc3f6e2aa83f8fbe8bb58cb"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Main"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#a3c9c2c8aac3a0c8e374d0e2eebc92376"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="StartServer"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#a1aa6119edcf0321051d2e5f32207c41d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Server"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_program.html#abad218f84e26dbccf0dde1828c898ced"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Server.cs"><param name="Local" value="_server_8cs.html"><param name="ImageNumber" value="11"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Server"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Server"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a5211fc0d07da67fb2e8895ad7cb0c06c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatServer_MessageReceived"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a7715274f9b39c81133f8361270d6516a"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatServer_ReadingInterrupted"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a265ff5bbb043adb392b87dc10cfb8744"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="StartListen"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#ae933d8f0f8d9126396b35f847271c2da"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ChatServer"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#af5b68dbdb814196e3efbedacd4622e0f"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="UserList"><param name="Local" value="class_complex_wpf_chat_server_example_1_1_server.html#a795a9a82ec87e841a7c525cb1fd0a4ca"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>
